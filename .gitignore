@@ -1,0 +1,9 @@
+*
+!README
+!.gitignore
+!/.config/
+!/.config/fish/
+!/.config/fish/aliases/
+!/.config/fish/config.d/
+!/.config/fish/functions/
+!*.fish
