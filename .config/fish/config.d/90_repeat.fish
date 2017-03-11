@@ -3,8 +3,8 @@ function !!
 end function
 
 function sudo
-    if test $argv
-        if test $argv = "!!"
+    if test $argv[1]
+        if test $argv[1] = "!!"
             eval /usr/bin/sudo $history[1]
         else
             eval /usr/bin/sudo $argv
